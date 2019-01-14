@@ -1,0 +1,48 @@
+
+.partners{
+    padding: 5px;
+    margin-top: 3px;
+}
+
+a{
+    text-decoration: none;
+}
+.partner-title{
+    padding-bottom: 3em;
+    padding-top: 0
+}
+
+.partner-title h1{
+    text-align: center;
+}
+
+.partner-img-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.partner-img:hover{
+    height: 175px;
+    width: 175px;
+}
+
+.partner-img{
+    height: 150px;
+    width: 150px; 
+    border-radius: 50%;
+    background-color: black;
+    margin: .8em;
+    transition: 1s;
+}
+ 
+
+@media only screen and (max-width: 600px) {
+    .partner-img-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .partner-title{
+        padding: 0px;
+        margin: 0px;
+    }
+  }

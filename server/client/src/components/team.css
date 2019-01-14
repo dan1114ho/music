@@ -1,0 +1,23 @@
+
+.team-container{
+    padding: 25px;
+    margin: 5px;
+}
+
+.team-container h1{
+    text-align: center;
+}
+
+.team-list{
+    display: flex;
+    justify-content: center;
+}
+
+.team-member{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 10px;
+}
+ 

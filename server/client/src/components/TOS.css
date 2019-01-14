@@ -1,0 +1,69 @@
+
+.terms-of-service{
+    font-size: .6em;
+}
+
+.wrap-collabsible {
+    margin-bottom: 1.2rem 0;
+  }
+  
+  input[type='button'] {
+    visibility: hidden;
+    display: none;
+    
+  }
+  
+  .lbl-toggle {
+    display: inline-flex;
+    font-size: .3em;
+    text-transform: uppercase;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+  }
+  
+  .lbl-toggle:hover {
+    color: #7C5A0B;
+  }
+  
+  .lbl-toggle::before {
+    content: ' ';
+    display: inline-block;
+  
+    vertical-align: middle;
+    margin-right: .7rem;
+    transform: translateY(-2px);
+  
+    transition: transform .2s ease-out;
+  }
+  
+ 
+  
+  .collapsible-content {
+    max-height: 0px;
+    overflow: scroll;
+    transition: max-height .25s ease-in-out;
+  }
+  
+  .toggle:checked + .lbl-toggle + .collapsible-content {
+    max-height: 350px;
+  }
+  
+  .toggle:checked + .lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .collapsible-content .content-inner {
+    background: rgba(250, 224, 66, .2);
+    border-bottom: 1px solid rgba(250, 224, 66, .45);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: .5rem 1rem;
+  }
+
+  .content-inner{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  

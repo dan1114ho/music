@@ -1,0 +1,54 @@
+#mission-statement-box h1{
+    text-align: center;
+    padding: 3px;
+    border-bottom: 3px double black;
+}
+
+h1, h2 , h3, p{
+    text-align: center;
+}
+
+
+
+.about-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.mission-statement{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+
+#mission-statement-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    height: 400px;
+}
+
+#mission-statement-box p{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.join-us-button{
+    position: absolute;
+    bottom: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-wrapper{
+        flex-wrap: wrap;
+    }
+
+}
